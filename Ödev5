@@ -1,0 +1,41 @@
+SPA Nedir?
+Single Page Application, sunucudan yeni sayfaların tamamını yüklemek yerine geçerli sayfayı dinamik olarak yeniden yazarak kullanıcıyla etkileşime giren bir web uygulaması veya web sitesidir.
+------------------------------------
+Angular Nedir?
+Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Angular is written in TypeScript.
+*Angular Architecture
+Root Module => Angular App
+                Modules  =>   Render the view in the browseer
+    Components           Services(Business logic)
+HTML      Classes       
+
+Typescript Nedir?   
+TypeScript uses compile time type checking. Which means it checks if the specified types match before running the code, not while running the code.
+let firstName = "Dylan"; // inferred to type string => typescript knows Dylan is a string
+--------------------------------------------
+Reference Type-Value Type
+
+const one=1;
+const oneCopy=1;
+
+console.log(one===oneCopy); //true
+
+const arr1=[1];
+const arr2=[1];
+
+console.log(arr1===arr2); //false
+ 
+Value types in ts => number, string, boolean 
+Reference types in ts => arrays, functions, objects
+-----------------------------------------
+Stack Heap
+⦁	Stack is a linear data structure whereas Heap is a hierarchical data structure.
+⦁	Stack memory will never become fragmented whereas Heap memory can become fragmented as blocks of memory are first allocated and then freed.
+⦁	Stack accesses local variables only while Heap allows you to access variables globally.
+⦁	Stack variables can’t be resized whereas Heap variables can be resized.
+⦁	Stack memory is allocated in a contiguous block whereas Heap memory is allocated in any random order.
+⦁	Stack doesn’t require to de-allocate variables whereas in Heap de-allocation is needed.
+⦁	Stack allocation and deallocation are done by compiler instructions whereas Heap allocation and deallocation is done by the programmer.
+
+
+
